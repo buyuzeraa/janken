@@ -11,7 +11,7 @@
     printf("1 - Iniciar Jogo\n");
     printf("2 - Regras\n");
     printf("3 - Sair\n");
-    scanf("%d \n", menu);
+    scanf("%d \n", &menu);
 
     switch (menu)
     {
@@ -52,6 +52,6 @@
     
     //escolhaComputador = rand() % 3 + 1;
 
+    }
 
-
-    
+return 0;
